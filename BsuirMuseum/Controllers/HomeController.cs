@@ -18,5 +18,10 @@ namespace BsuirMuseum.Controllers
         {
             return View();
         }
+
+        public ActionResult Symbols()
+        {
+            return View();
+        }
     }
 }

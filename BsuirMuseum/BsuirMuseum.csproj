@@ -93,10 +93,37 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\flags.css" />
     <Content Include="Content\mdb.css" />
     <Content Include="Content\mdb.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
+    <Content Include="lib\bucklet\css\demo.css" />
+    <Content Include="lib\bucklet\css\font\entypo-selected.svg" />
+    <Content Include="lib\bucklet\css\font\LICENSE.txt" />
+    <Content Include="lib\bucklet\css\font\README.txt" />
+    <Content Include="lib\bucklet\css\normalize.css" />
+    <Content Include="lib\bucklet\css\style.css" />
+    <Content Include="lib\bucklet\images\1.jpg" />
+    <Content Include="lib\bucklet\images\10.jpg" />
+    <Content Include="lib\bucklet\images\11.jpg" />
+    <Content Include="lib\bucklet\images\12.jpg" />
+    <Content Include="lib\bucklet\images\13.jpg" />
+    <Content Include="lib\bucklet\images\14.jpg" />
+    <Content Include="lib\bucklet\images\2.jpg" />
+    <Content Include="lib\bucklet\images\3.jpg" />
+    <Content Include="lib\bucklet\images\4.jpg" />
+    <Content Include="lib\bucklet\images\5.jpg" />
+    <Content Include="lib\bucklet\images\6.jpg" />
+    <Content Include="lib\bucklet\images\7.jpg" />
+    <Content Include="lib\bucklet\images\8.jpg" />
+    <Content Include="lib\bucklet\images\9.jpg" />
+    <Content Include="lib\bucklet\images\bg.jpg" />
+    <Content Include="lib\bucklet\images\bsuir-logo.png" />
+    <Content Include="lib\bucklet\images\restaurant.jpg" />
+    <Content Include="lib\bucklet\images\white_paperboard.jpg" />
+    <Content Include="lib\bucklet\js\menu.js" />
+    <Content Include="lib\bucklet\js\modernizr.custom.79639.js" />
     <Content Include="lib\css\jquery.ui.css" />
     <Content Include="lib\css\jquery.ui.html4.css" />
     <Content Include="lib\css\magazine.css" />
@@ -138,6 +165,11 @@
     <Content Include="Photos\03.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="lib\bucklet\css\.DS_Store" />
+    <Content Include="lib\bucklet\css\font\entypo-selected.eot" />
+    <Content Include="lib\bucklet\css\font\entypo-selected.ttf" />
+    <Content Include="lib\bucklet\css\font\entypo-selected.woff" />
+    <Content Include="lib\bucklet\images\.DS_Store" />
     <None Include="Scripts\jquery-3.2.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.2.1.js" />
     <Content Include="Scripts\jquery-3.2.1.min.js" />
@@ -178,6 +210,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.2.1.min.map" />
+    <Content Include="Views\Home\Symbols.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
