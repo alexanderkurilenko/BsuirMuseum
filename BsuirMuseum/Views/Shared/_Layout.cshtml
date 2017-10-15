@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Full Slider - Start Bootstrap Template</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../../Scripts/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../fonts/full-slider.css" rel="stylesheet">
+    <link href="../../Content/Site.css"    rel="stylesheet">
+    <link href="../../fonts/full-slider.css" rel="stylesheet">
+    <link href="../../Content/mdb.css"    rel="stylesheet">
+    <link href="../../Content/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>@Page.Title</title>
+    <script src="../../Scripts/vendor/jquery/jquery.min.js"></script>
+    <script src="../../Scripts/vendor/popper/popper.min.js"></script>
+    <script src="../../Scripts/vendor/bootstrap/js/bootstrap.min.js"></script>
+  
+    @RenderSection("head", required: false)
+</head>
+<body>
+<header>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bg-indigo">
+    <a class="navbar-brand" href="@Url.Action("Index","Home")"><img src="~/Photos/bsuir_logo.png" style="width:60px"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href=@Url.Action("TimeLine","Home")>Калейдоскоп Времени <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Символика</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Почетные Ректоры</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Наша гордость</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+                <a class="nav-link" href="https://vk.com/bsuir_official"><i class="fa fa-vk" ></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"><i class="fa fa-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+ </header>
+@RenderBody()
+<script type="text/javascript" src="../../Scripts/mdb.min.js"></script>
+</body>
+</html>
